@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Order grocery online from India's best grocery delivery service FreshMart. Discover fresh, high-quality groceries for a healthier lifestyle." />
+    
+    <link rel="shortcut icon" href="assets/Logo.8fd81e50.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cfcf372f7f.js" crossorigin="anonymous"></script>
+    <title>
+        Order Grocery Online from India's Best Grocery Delivery Service |
+        FreshMart
+    </title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .slide-animation {
+            animation: slide 19s linear infinite;
+        }
+
+        .paused-animation {
+            animation-play-state: paused;
+        }
+    </style>
+  <link rel="stylesheet" href="assets/index.37498baa.css">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navbar Section -->
+    <nav class="flex justify-between items-center h-20 p-4 text-lg bg-white drop-shadow-md" id="Home">
+        <div class="flex items-center">
+            <img src="assets/Logo.8fd81e50.png" class="h-14 mr-2 max-sm:h-11 max-sm:mr-2" alt="FreshMart Logo" />
+            <span class="cursor-pointer flex items-center font-normal text-2xl ml-2 max-sm:hidden">Fresh<span
+                    class="font-lobster">Mart</span></span>
+        </div>
+
+        <button class="block md:hidden cursor-pointer text-2xl" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="gap-8 pr-4 font-normal hidden md:flex">
+            <a href="#Home">
+                <li class="cursor-pointer hover:text-orange-500">Home</li>
+            </a>
+            <a href="#Partners">
+                <li class="cursor-pointer hover:text-orange-500">Our Partners</li>
+            </a>
+            <a href="#Products">
+                <li class="cursor-pointer hover:text-orange-500">Products</li>
+            </a>
+            <a href="#About">
+                <li class="cursor-pointer hover:text-orange-500">About</li>
+            </a>
+            <a href="#Contact">
+                <li class="cursor-pointer hover:text-orange-500">Contact</li>
+            </a>
+            <i class="fa-solid fa-cart-shopping cursor-pointer relative top-2"></i>
+        </ul>
+    </nav>
+
+    <!-- Mobile View -->
+    <div class="md:hidden bg-white text-center p-4 text-xl font-thin hidden" id="mobile-menu">
+        <a href="#Home" class="block hover:text-orange-500 mb-9">Home</a>
+        <a href="#Partners" class="block hover:text-orange-500 mb-9">Our Partners</a>
+        <a href="#Products" class="block hover:text-orange-500 mb-9">Products</a>
+        <a href="#About" class="block hover:text-orange-500 mb-9">About</a>
+        <a href="#Contact" class="block hover:text-orange-500 mb-9">Contact</a>
+    </div>
+
+    <!-- Main Section -->
+    <div class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto mt-8 px-4">
+        <div class="text-center md:text-left md:w-1/2">
+            <h2 class="text-center md:text-left font-normal text-3xl mb-6 md:mb-4">
+                Fresh<span class="font-lobster text-4xl">Mart</span>
+            </h2>
+            <h2 class="font-sans text-2xl mb-4 leading-normal">
+                Make healthy life with
+                <span class="text-green-500 font-bold">fresh</span> grocery
+            </h2>
+            <p class="text-sm mb-5">
+                Discover the freshest, high-quality groceries that nourish your body
+                and elevate your lifestyle. Shop with us for a healthier, happier you!
+            </p>
+            <div>
+                <button type="button"
+                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2 shadow-md">
+                    <i class="fa-solid fa-basket-shopping mr-1"></i>Order Now
+                </button>
+                <button type="button"
+                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2 shadow-md">
+                    <i class="fa-brands fa-google-play mr-1"></i>Download Our App
+                </button>
+            </div>
+        </div>
+        <img class="w-full md:w-1/2 h-auto mt-4 md:mt-0 drop-shadow-lg" src="assets/enchanced.11295034.png"
+            alt="FreshMart Enhanced Image" />
+    </div>
+    <hr>
+    <div class="relative overflow-hidden h-52 max-sm:h-64" id="Partners">
+        <!-- Title -->
+        <h4 class="text-lg sm:text-xl font-semibold h-16 flex items-center justify-center w-full absolute z-10">
+            Our Partners
+        </h4>
+
+        <!-- Description, positioned below the title -->
+        <p
+            class="text-xs sm:text-sm font-normal h-16 flex items-center justify-center w-full text-center absolute z-10 top-16 sm:top-10">
+            "Explore the trusted brands that power our success. Our 'Our Partners' section proudly showcases the global
+            names that drive our vision forward."
+        </p>
+
+        <div class="flex items-center slide-animation absolute inset-0 z-0 mt-24 max-sm:mt-24" id="brands">
+            <!-- Adjust width and height for images -->
+            <img class="w-20 h-auto mx-4" src="assets/Swiggy-Logo.1428bc9c.png" alt="Swiggy-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Zomato-logo.caecc51f.png" alt="Zomato-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/deliveroo-logo.3fd5df5d.svg" alt="deliveroo-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Delivery-Hero-Logo.32ea4e51.png" alt="Delivery-Hero-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Foodpanda-Logo.b802ffb1.png" alt="Foodpanda-Logo" />
+            <img class="w-16 h-auto mx-4" src="assets/Blinkit-Logo.93c2d922.png" alt="Blinkit-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Dominos-Logo.e06961ee.png" alt="Dominos-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Glovo_logo.9be9207d.png" alt="Glovo_logo" />
+            <img class="w-20 h-auto mx-4" src="assets/DoorDash-logo.e7dc103c.png" alt="DoorDash-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Just_Eat-Logo.ec117bd2.svg" alt="Just_Eat-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Grubhub-Logo.7bc1611e.png" alt="Grubhub-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/postmates.85513c7d.png" alt="postmates" />
+            <img class="w-20 h-auto mx-4" src="assets/Uber-Eats-logo.302422f7.png" alt="Uber-Eats-logo" />
+            <!-- Duplicate images to ensure continuous sliding -->
+            <img class="w-20 h-auto mx-4" src="assets/Swiggy-Logo.1428bc9c.png" alt="Swiggy-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Delivery-Hero-Logo.32ea4e51.png" alt="Delivery-Hero-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/deliveroo-logo.3fd5df5d.svg" alt="deliveroo-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Zomato-logo.caecc51f.png" alt="Zomato-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Dominos-Logo.e06961ee.png" alt="Dominos-Logo" />
+            <img class="w-16 h-auto mx-4" src="assets/Blinkit-Logo.93c2d922.png" alt="Blinkit-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Foodpanda-Logo.b802ffb1.png" alt="Foodpanda-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/DoorDash-logo.e7dc103c.png" alt="DoorDash-logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Glovo_logo.9be9207d.png" alt="Glovo_logo" />
+            <img class="w-20 h-auto mx-4" src="assets/postmates.85513c7d.png" alt="postmates" />
+            <img class="w-20 h-auto mx-4" src="assets/Just_Eat-Logo.ec117bd2.svg" alt="Just_Eat-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Grubhub-Logo.7bc1611e.png" alt="Grubhub-Logo" />
+            <img class="w-20 h-auto mx-4" src="assets/Uber-Eats-logo.302422f7.png" alt="Uber-Eats-logo" />
+        </div>
+    </div>
+    <hr>
+    <div class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto my-4 px-4 py-4" id="About">
+        <!-- About section on the left side -->
+        <div class="text-center md:text-left md:w-1/2">
+            <h4 class="font-normal text-3xl mb-6 md:mb-4">
+                Fresh<span class="font-lobster">Mart</span>
+            </h4>
+
+            <!-- Description, positioned below the title -->
+            <p class="text-sm font-thin mt-2 md:mt-0 max-sm:pb-10">
+                Welcome to FreshMart, your premier destination for the freshest and highest-quality groceries. At
+                FreshMart,
+                we are dedicated to nourishing your body and elevating your lifestyle with our carefully curated
+                selection
+                of products. From farm-fresh produce to gourmet essentials, every item on our shelves is chosen with
+                your
+                health and well-being in mind. <br>
+                Our mission is simple: to provide you with a seamless shopping experience that supports a healthier,
+                happier
+                you. We believe that the best ingredients lead to the best meals, and our commitment to quality ensures
+                that
+                you only receive the finest groceries available. Whether you're seeking everyday staples or specialty
+                items,
+                FreshMart is here to make your shopping experience enjoyable and fulfilling. <br>
+                Join us on this journey towards better living, one grocery at a time. Discover the difference that
+                quality
+                makes and experience the convenience of shopping with FreshMart today!
+            </p>
+        </div>
+
+        <!-- Image on the right side -->
+        <div class="w-full md:w-1/2 mt-2 md:mt-0 max-md:hidden">
+            <img class="w-4/5 ml-12 h-auto drop-shadow-lg rounded-md" src="assets/vegetables.c023777a.png"
+                alt="Vegetables Image" />
+        </div>
+    </div>
+
+    <hr>
+    <div class="space-y-8 text-center " id="Products">
+
+        <!-- Fruits & Vegetables Section -->
+        <div class="text-center">
+            <h4 class="text-lg sm:text-xl font-semibold mt-4 mb-4">Fruits & Vegetables</h4>
+            <div class="flex flex-wrap gap-5 justify-center">
+                <!-- Apple Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/apples.ebdd2b60.jpg" alt="Apple"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Apple</h5>
+                    <p class="text-sm text-gray-600">Fresh and juicy apples</p>
+                </div>
+
+                <!-- Banana Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/Banana.29e46371.jpg" alt="Banana"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Banana</h5>
+                    <p class="text-sm text-gray-600">Ripe and sweet bananas</p>
+                </div>
+
+                <!-- Tomato Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/tomato.d29f3737.jpg" alt="Tomato"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Tomato</h5>
+                    <p class="text-sm text-gray-600">Fresh and juicy tomatoes</p>
+                </div>
+
+                <!-- Broccoli Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/Broccoli.92b608fb.jpg" alt="Broccoli"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Broccoli</h5>
+                    <p class="text-sm text-gray-600">Fresh and green broccoli</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Dairy & Eggs Section -->
+        <div class="text-center">
+            <h4 class="text-lg sm:text-xl font-semibold mb-4">Dairy & Eggs</h4>
+            <div class="flex flex-wrap gap-5 justify-center">
+                <!-- Milk Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/milk.fe0ef9f3.jpg" alt="Milk"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Milk</h5>
+                    <p class="text-sm text-gray-600">Pure and fresh milk</p>
+                </div>
+
+                <!-- Cheese Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/cheese.c5d924aa.jpg" alt="Cheese"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Cheese</h5>
+                    <p class="text-sm text-gray-600">Creamy and rich cheese</p>
+                </div>
+
+                <!-- Yogurt Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/yogurt.8646c962.jpg" alt="Yogurt"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Yogurt</h5>
+                    <p class="text-sm text-gray-600">Creamy and delicious yogurt</p>
+                </div>
+
+                <!-- Eggs Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/eggs.2bf1ba53.jpg" alt="Eggs"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Eggs</h5>
+                    <p class="text-sm text-gray-600">Fresh and nutritious eggs</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Bakery & Snacks Section -->
+        <div class="text-center">
+            <h4 class="text-lg sm:text-xl font-semibold mb-4">Bakery & Snacks</h4>
+            <div class="flex flex-wrap gap-5 justify-center pb-10">
+                <!-- Bread Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/bread.44ab7286.jpg" alt="Bread"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Bread</h5>
+                    <p class="text-sm text-gray-600">Soft and fresh bread</p>
+                </div>
+
+                <!-- Croissant Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/Croissant.0a368793.jpg" alt="Croissant"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Croissant</h5>
+                    <p class="text-sm text-gray-600">Flaky and buttery croissants</p>
+                </div>
+
+                <!-- Chips Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden cursor-pointer">
+                        <img src="assets/chips.2d4c2a2a.jpg" alt="Chips"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Chips</h5>
+                    <p class="text-sm text-gray-600">Crispy and savory chips</p>
+                </div>
+
+                <!-- Cookies Card -->
+                <div class="bg-white rounded-lg shadow-lg p-4">
+                    <div class="overflow-hidden">
+                        <img src="assets/cookies.9b84c237.jpg" alt="Cookies"
+                            class="h-64 w-full object-cover rounded transform transition-transform duration-300 ease-in-out hover:scale-110">
+                    </div>
+                    <h5 class="text-lg font-semibold mt-4">Cookies</h5>
+                    <p class="text-sm text-gray-600">Delicious and sweet cookies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto mt-6 px-4 py-10" id="Contact">
+        <div
+            class="container mx-auto p-4 border border-gray-200 w-full shadow-lg text-center max-w-sm max-sm:my-8 max-md:my-8">
+            <div class="text-center md:text-center md:w-1/2">
+                <h4 class="font-normal text-3xl mb-6 md:mb-4">
+                    Fresh<span class="font-lobster">Mart</span>
+                </h4>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="3446d9d4-9b71-4dc8-a927-a9dd06ba62ea">
+                <input class="btn" type="text" placeholder="Full Name*" required>
+                <input class="btn" type="email" placeholder="Email Address*" required>
+                <input class="btn" type="text" placeholder="Mobile Number (Optional)">
+                <textarea class="btn" name="message" placeholder="Type text*" required></textarea>
+
+                <button type="submit"
+                    class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg mb-2">Submit</button>
+            </form>
+        </div>
+        <div class="text-center md:text-right md:w-1/2">
+            <h4 class="font-normal text-center text-3xl mb-6 md:mb-4 max-sm:text-lg max-md:text-xl">
+                We would love to <span class="text-orange-500">hear from you!</span>
+            </h4>
+
+            <p class="text-sm font-thin text-center mt-4 md:mt-0">
+                "Get in touch with us! Fill out the form below, and we'll respond as soon as possible."
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white pb-4 pt-8">
+        <div class="px-4">
+            <!-- <div class="flex justify-center items-center"> -->
+            <div class="flex flex-wrap text-center text-lg mt-5 md:flex-wrap max-sm:gap-5 max-sm:align-center">
+                <div class="w-full sm:w-1/2 md:w-1/4">
+                    <h5 class="font-sans mb-2">Quick Links</h5>
+                    <ul class="text-sm font-thin">
+                        <li class="mb-1"><a href="#Home" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li class="mb-1"><a href="#Partners" class="text-gray-300 hover:text-white">Our Partners</a>
+                        </li>
+                        <li class="mb-1"><a href="#Products" class="text-gray-300 hover:text-white">Products</a></li>
+                        <li class="mb-1"><a href="#About" class="text-gray-300 hover:text-white">About</a></li>
+                        <li class="mb-1"><a href="#Contact" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/4">
+                    <h5 class="font-sans mb-2">For Restaurants</h5>
+                    <ul class="text-sm font-thin">
+                        <li class="mb-1 cursor-pointer text-gray-300 hover:text-white">Partner With Us</li>
+                        <a href="#Partners">
+                            <li class="mb-1 cursor-pointer text-gray-300 hover:text-white">Our Partners</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/4">
+                    <h5 class="font-sans mb-2">Follow Us</h5>
+                    <div class="flex space-x-4 justify-center">
+                        <a href="#" class="hover:text-orange-500">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="hover:text-orange-500">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="hover:text-orange-500">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank"
+                            class="hover:text-orange-500">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/4">
+                    <h5 class="font-sans mb-2">Contact Us</h5>
+                    <p class="text-sm font-thin">
+                        Email: support@freshmart.com
+                    </p>
+                    <p class="text-sm font-thin">
+                        Phone: +91 12345 67890
+                    </p>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="mt-8 text-center text-sm font-normal">
+                <p>Developed by <a class="text-orange-500 font-semibold"
+                        href="https://www.linkedin.com/in/kartikay-sharma2004/">Kartikay Sharma</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

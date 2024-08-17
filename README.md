@@ -10,8 +10,8 @@ A clone of the Facebook login page built using Tailwind CSS. This project emphas
 2. Instagram Login Page:
 A recreation of the Instagram login page, showcasing the use of Tailwind CSS for building visually consistent and mobile-friendly layouts.
 
-3. eCommerce Website:
-A basic eCommerce website developed with Tailwind CSS. This project demonstrates the application of responsive design principles, layout structuring, and component-based design.
+3. Grocery Website:
+A basic Grocery website developed with Tailwind CSS. This project demonstrates the application of responsive design principles, layout structuring, and component-based design.
 
 ## Tech Stack 🛠️
 

@@ -1,5 +1,5 @@
-# Facebook Login Page
-A clone of the Facebook login page built using Tailwind CSS. This project emphasizes responsive design and UI replication with modern CSS frameworks.
+# Instagram Login Page
+A recreation of the Instagram login page, showcasing the use of Tailwind CSS for building visually consistent and mobile-friendly layouts.
 
 ![Facebook Login Page](https://github.com/user-attachments/assets/ad4fae1c-6083-4e52-8096-7332ede829e2)
 

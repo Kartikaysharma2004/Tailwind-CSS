@@ -1,3 +1,6 @@
+# Facebook Login Page
+A clone of the Facebook login page built using Tailwind CSS. This project emphasizes responsive design and UI replication with modern CSS frameworks.
+
 ![Facebook Login Page](https://github.com/user-attachments/assets/c628bf14-8f10-4c7a-aa50-6932f6d4fc61)
 
 <div align="center">
@@ -11,8 +14,6 @@
   </a>
 </p>
 
-# Facebook Login Page
-A clone of the Facebook login page built using Tailwind CSS. This project emphasizes responsive design and UI replication with modern CSS frameworks.
 
 ## Frontend Stack 🛠️
 
